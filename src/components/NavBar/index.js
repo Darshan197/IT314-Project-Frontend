@@ -86,13 +86,13 @@ const NavBar = (props) => {
             </button>
           )}
           <li className="navbar__link">
-            <NavLink
-              to="/compiler"
+            <a
+              href="/compiler"
               activeClassName="active__link"
               className="navbar__item"
             >
               IDE
-            </NavLink>
+            </a>
           </li>
         </ul>
       </div>

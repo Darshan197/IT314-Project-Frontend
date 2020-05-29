@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import { Helmet } from "react-helmet";
 import { ToastContainer, toast } from "react-toastify";
 import classnames from "classnames";
+import "react-toastify/dist/ReactToastify.css";
 
 import questions from "../questions.json";
 import isEmpty from "../../../utils/is-empty";
@@ -427,7 +428,7 @@ class Play extends Component {
     } = this.state;
 
     return (
-      <div className="playpage">
+      <div className="playpage font">
         <ToastContainer autoClose={3000} />
         <Fragment>
           <Helmet>

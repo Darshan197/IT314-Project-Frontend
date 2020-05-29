@@ -9,7 +9,7 @@ import Icon from "@mdi/react";
 import { mdiLightbulbOnOutline, mdiSetCenter } from "@mdi/js";
 
 const QuizInstructions = () => (
-  <div className="instpage">
+  <div className="instpage font">
     <Fragment>
       <Helmet>
         <title>Quiz Instructions - Quiz App</title>

@@ -26,7 +26,7 @@ const Discussion = () => {
         })
     }
     return (
-        <div className="p-5">
+        <div className="p-5 font">
             <Card fluid>
                 <Card.Content header={contest.title}></Card.Content>
                 <Card.Content>

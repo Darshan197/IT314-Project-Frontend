@@ -43,7 +43,7 @@ const Contests = () => {
         },
       ]
     return (
-        <div className="p-5">
+        <div className="p-5 font">
             <Tab menu={{ secondary: true, pointing: true }} panes={panes} />
         </div>
     )

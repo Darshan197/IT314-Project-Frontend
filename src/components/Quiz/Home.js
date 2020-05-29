@@ -6,7 +6,7 @@ import { mdiCubeOutline } from "@mdi/js";
 import './styles/styles.scss'
 
 const Home = () => (
-  <div className="homepage">
+  <div className="homepage font">
     <Fragment>
       <Helmet>
         <title>Home - Quiz App</title>
